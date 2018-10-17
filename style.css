@@ -7,11 +7,12 @@ body {
   background-image: url('bkgd2.png');
 }
 .page {
-  width: 80%;
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 .ball, .button {
+  display: block;
   margin: 0 auto;
   position:relative;
   width:80%;
